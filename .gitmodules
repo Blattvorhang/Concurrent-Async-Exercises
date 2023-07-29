@@ -1,3 +1,3 @@
-[submodule "Inter-Thread Communication using Channels (See Week_13)"]
-	path = Inter-Thread Communication using Channels (See Week_13)
+[submodule "Channels"]
+	path = Channels
 	url = git@github.com:Blattvorhang/Functional-Programming-Exercises.git
