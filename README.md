@@ -1,1 +1,2 @@
 # Concurrent-Async-Exercises
+This repository is a comprehensive and practical resource for individuals interested in mastering the concepts of concurrent programming and asynchronous techniques. It serves as a playground for learners to explore and engage with hands-on exercises, designed to enhance their understanding of these crucial concepts in modern software development.
