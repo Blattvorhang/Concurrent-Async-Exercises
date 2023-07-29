@@ -1,5 +1,7 @@
 # Deadlock
-In this exercise, we want to explore deadlocks using a swimming pool facility. The exercise was originally part of a homework assignment from the course *Introduction to Software Engineering* at TUM during the Summer Semester of 2023.
+This exercise was originally part of a homework assignment from the course *Introduction to Software Engineering* at TUM during the Summer Semester of 2023.
+
+In this exercise, we want to explore deadlocks using a swimming pool facility.
 
 Here is an overview of the system: We have a `SwimmingPool`, which contains exactly one `ChangingRoom` and one `Locker` (for the sake of simplicity; a real swimming pool would obviously have more of each). Before entering the `SwimmingPool`, `Swimmer`s must change their clothes in the changing room and lock their clothes in the locker. The locker should stay locked until the swimmer is done with their swimming session, and the key to the changing room should also be kept until the swimmer leaves the facility (this implies that only one swimmer at a time can swim in our pool). Different swimmers should be able to request entry to the swimming pool (using `goToSwimmingPool`) from multiple different threads simultaneously.
 
